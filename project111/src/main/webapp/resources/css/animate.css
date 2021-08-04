@@ -1,0 +1,43 @@
+.menubar { 
+  position	      : relative;
+  width		      : 1200px;
+  text-align	  : right;
+  border-bottom	  : solid 1px lightgrey;
+} 
+.menubar  ul li	{
+	list-style  	: none; 		
+	width       	: 110px;
+	text-align		: center;
+	line-height		: 2.5em;
+	display     	: inline-block; 	
+}
+
+.menubar  ul li:hover	{
+	background: rgb(240,240,240); 
+}
+
+.menubar  ul li.selected	{
+	background: rgb(240,240,240); 
+}
+.menubar  ul li.selected a	{
+	color: #009FBC;
+}
+
+.menubar ul li a
+{ 
+	text-align		: center;
+	text-decoration	: none;
+    vertical-align	: bottom;
+	color: grey;
+} 
+.menubar  ul li:hover a	{
+	color: #009FBC;
+}
+
+/* 마우스 호버링 시 Drop Down */
+.menubar ul li 		 	ul				{ position:absolute; display: none;  }
+.menubar ul li:hover	ul  			{ display: block; z-index:9999;background: rgb(240,240,240); }  /* z-index 중요함.. */ 
+.menubar ul li 		 	ul  li			{ display: block;  }  /* 수직으로 드랍다운 */ 
+.menubar ul li:hover   	ul 	li		 a	{ color: grey;}			/* hovering 시 폰트색상 변경 */ 
+.menubar ul li:hover   	ul 	li:hover a	{ color: #009FBC;}
+

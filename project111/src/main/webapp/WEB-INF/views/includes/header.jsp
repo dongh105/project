@@ -34,7 +34,7 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
 
-
+<script src="/resources/css/animate.css"></script>
 
 </head>
 
@@ -61,18 +61,29 @@
                             </ul>
                         </li>
                         
-                        
-                        
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">구매</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/product/all">전체 목록</a></li>
+                        <div class="productbar">
+                        	<ul>
+                        		<li><a class="dropdown-item" href="/product/all">전체 목록</a></li>
                                 <li><hr class="dropdown-divider" /></li>
                                 <li><a class="dropdown-item" href="/product/month">이용권</a></li>
                                 <li><a class="dropdown-item" href="/product/desk">책상</a></li>
                                 <li><a class="dropdown-item" href="/product/chair">의자</a></li>
-                            </ul>
-                        </li>
+                        		 	</ul>
+                        		 </li>
+                        	</ul>
+                        </div>
+                        
+                        
+<!--                         <li class="nav-item dropdown"> -->
+<!--                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="product/all" role="button" data-bs-toggle="dropdown" aria-expanded="false">구매</a> -->
+<!--                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> -->
+<!--                                 <li><a class="dropdown-item" href="/product/all">전체 목록</a></li> -->
+<!--                                 <li><hr class="dropdown-divider" /></li> -->
+<!--                                 <li><a class="dropdown-item" href="/product/month">이용권</a></li> -->
+<!--                                 <li><a class="dropdown-item" href="/product/desk">책상</a></li> -->
+<!--                                 <li><a class="dropdown-item" href="/product/chair">의자</a></li> -->
+<!--                             </ul> -->
+<!--                         </li> -->
                     </ul>
                     <form class="d-flex">
                         <button class="btn btn-outline-dark" type="submit">
